@@ -2,12 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { LeftSideOrnekLayout } from './layouts' 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <LeftSideOrnekLayout>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,8 +29,13 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+    </LeftSideOrnekLayout>
   )
 }
 
 export default App
+
+// Plans
+// I have to do provider/layout that puts orken on left side
+// I have to do layout for each section
+
