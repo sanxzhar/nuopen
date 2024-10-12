@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'leftOrnek': "url('./src/layouts/LeftSideOrnekLayout/assets/leftOrnek.webp')", // Path to your image
+      },
+    },
   },
   plugins: [],
 }

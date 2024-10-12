@@ -1,7 +1,5 @@
 import { ReactNode, FC } from "react";
 
-import ornek from './assets/leftOrnek.webp'
-
 type LeftSideOrnekLayoutProps = {
   children: ReactNode;
 };
@@ -9,7 +7,7 @@ type LeftSideOrnekLayoutProps = {
 export const LeftSideOrnekLayout: FC<LeftSideOrnekLayoutProps> = (props) => {
   return (
     <div className="w-full h-full">
-      <div className=" absolute"><img width="69px" height="255px" src={ornek} /></div>
+      <div className="absolute left-[10px] w-[69px] h-full bg-leftOrnek bg-repeat bg-[length:69px_255px]" />
       <div>{props.children}</div>
     </div>
   );
