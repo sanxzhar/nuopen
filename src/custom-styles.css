@@ -1,0 +1,10 @@
+.sponsor-box {
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+    width: 10rem; /* Adjust width as needed */
+    height: 3.8rem;  /* Adjust height as needed */
+    background-color: #000051; /* Dark blue color similar to your image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
