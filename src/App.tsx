@@ -1,15 +1,20 @@
-
-import './App.css'
-import { LeftSideOrnekLayout } from './layouts' 
+import "./App.css";
+import { LeftSideOrnekLayout, SectionOrnekLayout } from "./layouts";
 
 function App() {
-
   return (
     <LeftSideOrnekLayout>
-      <div className='w-[100vw] h-[100vh]'>content</div>
+      <SectionOrnekLayout>
+        <div className="w-[100vw] h-[100vh]">content</div>
+      </SectionOrnekLayout>
+      <SectionOrnekLayout>
+        <div className="w-[100vw] h-[100vh]">content</div>
+      </SectionOrnekLayout>
+      <SectionOrnekLayout>
+        <div className="w-[100vw] h-[100vh]">content</div>
+      </SectionOrnekLayout>
     </LeftSideOrnekLayout>
-  )
+  );
 }
 
-export default App
-
+export default App;
