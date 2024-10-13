@@ -1,9 +1,6 @@
-@import './custom-styles.css';
-@import './custom-styles.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root{
   background-color: #0C0C14;

@@ -1,1 +1,1 @@
-// export file
+export { Sponsors } from "./Sponsors/Sponsors";
