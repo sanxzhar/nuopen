@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+.nuopen-table-section {
+    padding-top: 77px;
+    padding-left: 224px;
+    padding-right: 224px;
+    padding-bottom: 77px;
+}
+
+.nuopen-table {
+    background: #000051;
+    max-width: 1473px;
+    margin-left: auto;
+    vertical-align: baseline;
+    margin-right: auto;
+    border-radius: 60px;
+    padding-left: 66px;
+    padding-right: 82px;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.nuopen-table__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    justify-items: center;
+    /* grid-gap: 10px; */
+    align-items: center;
+    /* padding-top: 36px; */
+    /* padding-bottom: 36px; */
+}
+
+.nuopen-table__grid-element {
+    position: relative;
+}
+
+.nuopen-table__grid-element::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 10000px;
+    height: 3px;
+    background-color: #fff;
+    top: 0;
+    left: -1000px;
+}
+
+.nuopen-table__highlighted {
+    color: #ed2e3c;
+}
+
+.nuopen-table__smaller-text {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.nuopen-table__header-row {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 100%;
+    padding-top: 31px;
+    padding-bottom: 36px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nuopen-table__data {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-self: center;
+    align-self: center;
+}
+
+.nuopen-table__border {
+    border-bottom: 3px solid #fff;
+}
+
+.nuopen-table__header {
+    flex: 1;
+}
+
+.nuopen-table__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    /* gap: 10px; */
+}
+
+@media only screen and (max-width: 1456px) {
+    .nuopen-table-section {
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .nuopen-table-section {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+@media only screen and (max-width: 869px) {
+    .nuopen-table {
+        font-size: 20px;
+        line-height: 21px;
+    }
+
+    .nuopen-table__smaller-text {
+        font-size: 10px;
+        line-height: 10.5px;
+    }
+
+    .nuopen-table__body img {
+        scale: 0.75;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .nuopen-table {
+        padding-left: 33px;
+        padding-right: 41px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .nuopen-table {
+        padding-left: 9.5px;
+        padding-right: 18px;
+        padding-bottom: 17.5px;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .nuopen-table-section {
+        padding-top: 14px;
+        padding-bottom: 10.5px;
+    }
+
+    .nuopen-table {
+        font-size: 10px;
+        line-height: 14px;
+        border-radius: 15px;
+    }
+
+    .nuopen-table__border {
+        border-bottom: 0.75px solid #fff;
+    }
+
+    .nuopen-table__border {
+        border-bottom: 0.75px solid #fff;
+    }
+
+    .nuopen-table__body img {
+        scale: 0.5;
+    }
+
+    .nuopen-table__smaller-text {
+        font-size: 5px;
+        line-height: 7px;
+    }
+
+    .nuopen-table__header-row {
+        padding-top: 7.75px;
+        padding-bottom: 9px;
+    }
+
+    .nuopen-table__row {
+        gap: 5px;
+    }
+
+    .nuopen-table__data {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .nuopen-table__grid-element::after {
+        height: 0.75px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .nuopen-table__header-row {
+        padding-top: 2.25px;
+        padding-bottom: 4.25px;
+    }
+}
