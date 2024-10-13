@@ -9,9 +9,19 @@ type SectionOrnekLayoutProps = {
 export const SectionOrnekLayout: FC<SectionOrnekLayoutProps> = (props) => {
   return (
     <div className="relative">
-      <img width={110} height={110} src={SectionOrnek} className="absolute right-[10px] bottom-[10px]" />
+      <img
+        width={110}
+        height={110}
+        src={SectionOrnek}
+        className="absolute right-[10px] bottom-[10px]"
+      />
       <div>{props.children}</div>
-      <img width={110} height={110} src={SectionOrnek} className="absolute right-[10px] top-[10px] rotate-[270deg]" />
+      <img
+        width={110}
+        height={110}
+        src={SectionOrnek}
+        className="absolute right-[10px] top-[10px] rotate-[270deg]"
+      />
     </div>
   );
 };
