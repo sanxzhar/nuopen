@@ -4,7 +4,7 @@ import zapisLogo from "./assets/Logo Zapis_fixed.svg"
 
 export const Sponsors = () => {
   return (
-    <div className="bg-black py-12 w-full overflow-hidden">
+    <div className="py-12 w-full overflow-hidden">
       <div className="text-center max-w-screen-lg mx-auto">
         {/* Title */}
         <h2 className="text-[#ff0414] text-4xl font-bold mb-8 uppercase tracking-wider">
