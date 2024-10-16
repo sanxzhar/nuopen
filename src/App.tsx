@@ -17,6 +17,8 @@ function App() {
       <SectionOrnekLayout>
         <Sponsors />
       </SectionOrnekLayout>
+
+      
     </LeftSideOrnekLayout>
   );
 }
