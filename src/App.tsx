@@ -1,6 +1,7 @@
 import "./App.css";
 import {LeftSideOrnekLayout, SectionOrnekLayout} from "./layouts";
 import {Sponsors} from "./sections";
+import { Rules } from "./sections";
 import OnlineOfflineTable from "./sections/OnlineOfflineTable/OnlineOfflineTable.tsx";
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <SectionOrnekLayout>
         <Sponsors />
       </SectionOrnekLayout>
-
+      <SectionOrnekLayout>
+        <Rules />
+      </SectionOrnekLayout>
       
     </LeftSideOrnekLayout>
   );
