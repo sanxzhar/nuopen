@@ -1,10 +1,12 @@
 import "./App.css";
-import {LeftSideOrnekLayout, SectionOrnekLayout} from "./layouts";
-import {Sponsors} from "./sections";
-import { Rules } from "./sections";
-import OnlineOfflineTable from "./sections/OnlineOfflineTable/OnlineOfflineTable.tsx";
-import Promoting from "./sections/Promoting/Promoting.tsx";
-import Agenda from "./sections/Agenda/Agenda.tsx";
+import { LeftSideOrnekLayout, SectionOrnekLayout } from "./layouts";
+import {
+  Sponsors,
+  Rules,
+  Promoting,
+  Agenda,
+  OnlineOfflineTable,
+} from "./sections";
 function App() {
   return (
     <LeftSideOrnekLayout>
@@ -12,10 +14,13 @@ function App() {
         <div className="w-[100vw] h-[100vh]">content</div>
       </SectionOrnekLayout>
       <SectionOrnekLayout>
-        <div className="w-[100vw] h-[100vh]">content</div>
+        <Promoting />
       </SectionOrnekLayout>
       <SectionOrnekLayout>
-        <div className="w-[100vw] h-[100vh]">content</div>
+        <Agenda />
+      </SectionOrnekLayout>
+      <SectionOrnekLayout>
+        <OnlineOfflineTable />
       </SectionOrnekLayout>
       <SectionOrnekLayout>
         <Sponsors />
@@ -23,7 +28,6 @@ function App() {
       <SectionOrnekLayout>
         <Rules />
       </SectionOrnekLayout>
-      
     </LeftSideOrnekLayout>
   );
 }

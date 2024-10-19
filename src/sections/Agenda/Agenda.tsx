@@ -1,5 +1,5 @@
 
-export default function Agenda(){
+export function Agenda(){
     return (
         <div className="p-[10px]">
             <h2 className="text-4xl md:text-6xl text-center uppercase mb-7 text-custom-red font-formula1">Agenda</h2>
