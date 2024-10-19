@@ -7,6 +7,7 @@ import {
   Agenda,
   OnlineOfflineTable,
   WelcomeSection,
+  FAQ,
 } from "./sections";
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </SectionOrnekLayout>
       <SectionOrnekLayout>
         <Rules />
+      </SectionOrnekLayout>
+      <SectionOrnekLayout>
+        <FAQ />
       </SectionOrnekLayout>
     </LeftSideOrnekLayout>
   );

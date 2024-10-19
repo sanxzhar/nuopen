@@ -4,3 +4,4 @@ export { Promoting } from "./Promoting/Promoting";
 export { OnlineOfflineTable } from "./OnlineOfflineTable/OnlineOfflineTable";
 export { Agenda } from "./Agenda/Agenda";
 export { WelcomeSection } from "./WelcomeSection/WelcomeSection";
+export { FAQ } from "./FAQ/FAQ";
