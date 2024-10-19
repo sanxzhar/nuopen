@@ -20,7 +20,9 @@ export default {
         'custom-red': '#FF0013',
       },
       fontFamily: {
-        'formula1': ['Formula1', 'sans-serif'], // Ensure the font family is correctly added
+        'formula1': ['Formula1', 'sans-serif'],
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+        'timer': ['Timer', 'sans-serif']
       },
     },
   },

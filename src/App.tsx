@@ -6,12 +6,13 @@ import {
   Promoting,
   Agenda,
   OnlineOfflineTable,
+  WelcomeSection,
 } from "./sections";
 function App() {
   return (
     <LeftSideOrnekLayout>
       <SectionOrnekLayout>
-        <div className="w-[100vw] h-[100vh]">content</div>
+        <WelcomeSection />
       </SectionOrnekLayout>
       <SectionOrnekLayout>
         <Promoting />
