@@ -59,6 +59,10 @@ function App() {
       <SectionOrnekLayout>
         <FAQ />
       </SectionOrnekLayout>
+      
+      <div className="relative font-ubuntu text-white flex justify-center py-8 text-muted-foreground text-sm">
+        nuopen 2024 by NU ACM SC
+      </div>
     </LeftSideOrnekLayout>
   );
 }
