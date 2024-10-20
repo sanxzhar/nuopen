@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'leftOrnek': "url('./src/layouts/LeftSideOrnekLayout/assets/leftOrnek.webp')", // Path to your image
+        'leftOrnek': "url('./assets/leftOrnek.webp')", // Path to your image
       },
       backgroundColor: {
         'dark-blue': '#000051',

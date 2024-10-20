@@ -1,6 +1,6 @@
 import "./App.css";
 import { LeftSideOrnekLayout, SectionOrnekLayout } from "./layouts";
-import nuLogo from "./assets/nuLogo.png";
+import nuLogo from "./assets/nuLogo.svg";
 import {
   Sponsors,
   Rules,
