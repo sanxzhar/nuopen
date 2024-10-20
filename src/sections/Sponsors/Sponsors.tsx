@@ -1,6 +1,6 @@
 import "./sponsorsStyles.css";
-import umag from "../../assets/umagLogo.svg"
-import zapis from "../../assets/zapisLogo.svg"
+import umag from "../../assets/umag.svg"
+import zapis from "../../assets/zapis.svg"
 
 export const Sponsors = () => {
   return (
