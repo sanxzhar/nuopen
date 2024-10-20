@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
 .nuopen-table-section {
-    padding-top: 77px;
-    padding-left: 224px;
-    padding-right: 224px;
-    padding-bottom: 77px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .nuopen-table {
     background: #000051;
-    max-width: 1473px;
+    max-width: 1300px;
     margin-left: auto;
     vertical-align: baseline;
     margin-right: auto;
@@ -98,15 +98,15 @@
 
 @media only screen and (max-width: 1456px) {
     .nuopen-table-section {
-        padding-left: 112px;
-        padding-right: 112px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
 @media only screen and (max-width: 1050px) {
     .nuopen-table-section {
-        padding-left: 11px;
-        padding-right: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 

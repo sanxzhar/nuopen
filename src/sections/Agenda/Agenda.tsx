@@ -1,7 +1,7 @@
 
 export function Agenda(){
     return (
-        <div className="p-[10px]">
+        <div id="agenda" className="p-[30px]">
             <h2 className="text-4xl md:text-6xl text-center uppercase mb-7 text-custom-red font-formula1">Agenda</h2>
             <div className="flex flex-col gap-[20px] md:gap-[50px] items-center justify-center min-w-[300px] max-w-[1148px] mx-auto">
                 <AgendaItem time="9.00 - 10.00" title="Registration" />

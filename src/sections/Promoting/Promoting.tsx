@@ -4,7 +4,7 @@ import timer from "./assets/timer.svg";
 
 export function Promoting(){
   return (
-    <div className="text-white flex flex-col items-center max-h-full p-[80px] gap-[50px]">
+    <div id="about" className="text-white flex flex-col items-center max-h-full p-[80px] gap-[50px]">
       <h1 className="text-4xl md:text-5xl font-formula1 uppercase text-center max-w-[1000px]">
       We Promote Competitive Programming in <span className="text-custom-red">Kazakhstan</span>
       </h1>

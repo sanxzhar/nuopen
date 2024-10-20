@@ -15,7 +15,7 @@ export const FAQItem: FC<FAQItemProps> = ({ question, answer }) => {
       className="bg-[#000051] p-[14.4px] rounded-xl text-white"
     >
       <div className="flex items-center gap-6">
-        <div className="w-[7.5px] h-[7.5px] bg-custom-red" />
+        <div className="w-[7.5px] h-[7.5px] bg-custom-red shrink-0 " />
         <div className="grow font-ubuntu font-bold italic text-[24px]">
           {question}
         </div>
@@ -27,7 +27,7 @@ export const FAQItem: FC<FAQItemProps> = ({ question, answer }) => {
 
       {isOpen && (
         <div className=" font-ubuntu font-medium text-[16px] mt-[24px]">
-          asd as das {answer}
+          {answer}
         </div>
       )}
     </div>

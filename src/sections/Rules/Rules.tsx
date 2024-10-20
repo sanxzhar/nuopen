@@ -8,12 +8,12 @@ export const Rules = () => {
   ];
 
   return (
-    <div className="py-12 w-full">
-      <div className="text-center max-w-screen-lg mx-auto">
-        <h2 className="text-[#ff0414] text-4xl font-bold mb-8 uppercase tracking-wider font-formula1">
+    <div id="rules" className="py-12 w-full">
+      <div className="text-center max-w-[1200px] mx-auto">
+        <h2 className="text-[#ff0414] md:text-6xl text-4xl font-bold mb-8 uppercase tracking-wider font-formula1">
           Rules
         </h2>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 md:mx-[80px] mx-[50px]">
           {rules.map((rule, index) => (
             <div
               key={index}

@@ -12,7 +12,7 @@ import {
 function App() {
   return (
     <LeftSideOrnekLayout>
-      <SectionOrnekLayout>
+      <SectionOrnekLayout isTop={false}>
         <WelcomeSection />
       </SectionOrnekLayout>
       <SectionOrnekLayout>

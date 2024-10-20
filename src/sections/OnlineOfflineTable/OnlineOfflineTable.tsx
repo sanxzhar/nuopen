@@ -5,7 +5,7 @@ import krest from "./assets/krest.svg";
 export const OnlineOfflineTable = () => {
   return (
     <section className="nuopen-table-section">
-      <div className="nuopen-table">
+      <div className="nuopen-table max-w-[1200px]">
         <div className="nuopen-table__head">
           <div className="nuopen-table__border nuopen-table__header-row">
             <div className="nuopen-table__header"></div>

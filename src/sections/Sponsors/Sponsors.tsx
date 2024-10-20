@@ -8,7 +8,7 @@ export const Sponsors = () => {
     <div className="py-12 w-full overflow-hidden">
       <div className="text-center max-w-screen-lg mx-auto">
         {/* Title */}
-        <h2 className="text-[#ff0414] text-4xl font-bold mb-8 uppercase tracking-wider font-formula1">
+        <h2 className="text-[#ff0414] md:text-6xl text-4xl font-bold mb-8 uppercase tracking-wider font-formula1">
           Sponsors
         </h2>
 

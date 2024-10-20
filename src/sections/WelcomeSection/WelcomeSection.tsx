@@ -7,8 +7,7 @@ export const WelcomeSection = () => {
     <div className="w-full md:p-[80px] p-[50px] h-full flex justify-center items-center flex-col">
       <div className="text-white max-h-full max-w-[1200px] w-full relative">
         <img
-          className="absolute md:right-0 z-[-1] md:top-0 top-16 right-[-40px] "
-          width="900px"
+          className="absolute md:right-0 z-[-1] md:top-0 top-16 right-[-80px] md:w-[900px] w-full"
           src={baigeImg}
         />
         <h1 className="font-formula1 md:text-8xl text-[56px]">
