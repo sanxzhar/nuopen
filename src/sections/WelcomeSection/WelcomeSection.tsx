@@ -20,9 +20,11 @@ export const WelcomeSection = () => {
           <span className="text-custom-red">UMAG, ZAPIS</span>
         </div>
         <Timer />
-        <button className="font-ubuntu text-xl px-10 py-5 bg-[#FF0013] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
-          Register
-        </button>
+        <a href="https://registration.nuacm.kz/">
+          <button className="font-ubuntu text-xl px-10 py-5 bg-[#FF0013] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
+            Register
+          </button>
+        </a>
       </div>
       <img
         className="md:mt-[70px] mt-[155px] md:w-[100px] w-[50px]"

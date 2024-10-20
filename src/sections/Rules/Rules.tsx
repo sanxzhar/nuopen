@@ -10,7 +10,7 @@ export const Rules = () => {
   return (
     <div className="py-12 w-full">
       <div className="text-center max-w-screen-lg mx-auto">
-        <h2 className="text-[#ff0414] text-4xl font-bold mb-8 uppercase tracking-wider">Rules</h2>
+        <h2 className="text-[#ff0414] text-4xl font-bold mb-8 uppercase tracking-wider font-formula1">Rules</h2>
         <div className="flex flex-col gap-6">
           {rules.map((rule, index) => (
             <div
@@ -24,7 +24,7 @@ export const Rules = () => {
               }}
             >
               <div
-                className="bg-[#ff0414] text-[#000051] font-bold px-4 py-1 text-2xl flex items-center justify-center"
+                className="bg-[#ff0414] text-[#000051] font-bold px-4 py-1 text-3xl flex items-center justify-center font-formula1"
                 style={{
                   borderTopLeftRadius: '1rem',  // Round only top-left corner
                   borderBottomLeftRadius: '0',   // Remove bottom-left rounding
@@ -36,7 +36,7 @@ export const Rules = () => {
               >
                 {index + 1}
               </div>
-              <div className="px-4 py-6 text-justify">{rule}</div> {/* Adjust left padding for spacing */}
+              <div className="px-4 py-6 text-justify font-ubuntu">{rule}</div> {/* Adjust left padding for spacing */}
             </div>
           ))}
         </div>
