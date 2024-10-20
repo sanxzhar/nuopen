@@ -1,6 +1,6 @@
 import "./sponsorsStyles.css";
-import umag from "../../../public/umagLogo.webp";
-import zapis from "../../../public/zapisLogo.webp";
+// import umag from "/umag";
+// import zapis from "../../../public/zapisLogo.webp";
 
 
 export const Sponsors = () => {
@@ -16,10 +16,10 @@ export const Sponsors = () => {
         <div className="flex justify-center flex-wrap gap-8 px-8">
           {/* First Row */}
           <div className="p-4 sponsor-box flex justify-center items-center text-white font-bold">
-            <img src={umag} alt="Umag" />
+            <img src="/umagLogo.webp" alt="Umag" />
           </div>
           <div className="p-4 sponsor-box flex justify-center items-center text-white font-bold">
-            <img src={zapis} alt="Zapis" />
+            <img src="/zapisLogo.webp" alt="Zapis" />
           </div>
         </div>
       </div>
