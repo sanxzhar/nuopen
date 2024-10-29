@@ -7,7 +7,7 @@ export const Timer = () => {
   const [minutes, setMinutes] = useState<number>(0);
   const [seconds, setSeconds] = useState<number>(0);
 
-  const registrationDeadline = "November, 3, 2024";
+  const registrationDeadline = "October, 31, 2024";
 
   const getTime = (deadline: string) => {
     const leftTime = Date.parse(deadline) - Date.now();

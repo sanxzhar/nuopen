@@ -26,8 +26,8 @@ export const OnlineOfflineTable = () => {
           </div>
 
           <div className=" nuopen-table__data nuopen-table__smaller-text">
-            for school and undergraduate students who are
-            <span className="nuopen-table__highlighted"> 16+ years old</span>
+            Every citizen of Kazakhstan older than
+            <span className="nuopen-table__highlighted"> 16+ years</span>
           </div>
 
           <div className="nuopen-table__grid-element nuopen-table__data">
