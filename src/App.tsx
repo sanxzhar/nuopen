@@ -30,7 +30,7 @@ function App() {
             </a>
           </div>
 
-          <a href="https://registration.nuacm.kz/">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzIn915jKLyWL_clo84NhIRAuyMdrO9kfGn1ykY79H0tBwOA/viewform">
             <button className="font-ubuntu md:text-xl text-base md:px-10 md:py-5 bg-[#FF0013] text-white md:rounded-[15px] rounded-[5px] px-4 py-2 font-bold uppercase">
               Register
             </button>

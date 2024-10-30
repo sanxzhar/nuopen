@@ -24,7 +24,7 @@ export const WelcomeSection = () => {
           <span className="text-custom-red">UMAG, ZAPIS</span>
         </div>
         <Timer />
-        <a href="https://registration.nuacm.kz/">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzIn915jKLyWL_clo84NhIRAuyMdrO9kfGn1ykY79H0tBwOA/viewform">
           <button className="font-ubuntu text-xl px-10 py-5 bg-[#FF0013] rounded-[15px] font-bold uppercase md:mt-11 mt-[18px]">
             Register
           </button>
