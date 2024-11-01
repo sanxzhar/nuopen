@@ -1,13 +1,11 @@
-import { useEffect, useState } from "react";
 import { TimerItem } from "./TimerItem";
 
 export const Timer = () => {
-  const [days, setDays] = useState<number>(0);
-  const [hours, setHours] = useState<number>(0);
-  const [minutes, setMinutes] = useState<number>(0);
-  const [seconds, setSeconds] = useState<number>(0);
+  // const [days, setDays] = useState<number>(0);
+  // const [hours, setHours] = useState<number>(0);
+  // const [minutes, setMinutes] = useState<number>(0);
+  // const [seconds, setSeconds] = useState<number>(0);
 
-  const registrationDeadline = "November, 1, 2024";
 
   // const getTime = (deadline: string) => {
   //   const leftTime = Date.parse(deadline) - Date.now();
@@ -26,10 +24,10 @@ export const Timer = () => {
 
   return (
     <div className="flex md:gap-4 gap-1">
-      <TimerItem time={days} />
-      <TimerItem time={hours} />
-      <TimerItem time={minutes} />
-      <TimerItem time={seconds} />
+      <TimerItem time={0} />
+      <TimerItem time={0} />
+      <TimerItem time={0} />
+      <TimerItem time={0} />
     </div>
   );
 };
