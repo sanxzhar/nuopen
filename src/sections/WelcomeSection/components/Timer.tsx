@@ -9,20 +9,20 @@ export const Timer = () => {
 
   const registrationDeadline = "November, 1, 2024";
 
-  const getTime = (deadline: string) => {
-    const leftTime = Date.parse(deadline) - Date.now();
+  // const getTime = (deadline: string) => {
+  //   const leftTime = Date.parse(deadline) - Date.now();
 
-    setDays(Math.floor(leftTime / (1000 * 60 * 60 * 24)));
-    setHours(Math.floor((leftTime / (1000 * 60 * 60)) % 24));
-    setMinutes(Math.floor((leftTime / 1000 / 60) % 60));
-    setSeconds(Math.floor((leftTime / 1000) % 60));
-  };
+  //   setDays(Math.floor(leftTime / (1000 * 60 * 60 * 24)));
+  //   setHours(Math.floor((leftTime / (1000 * 60 * 60)) % 24));
+  //   setMinutes(Math.floor((leftTime / 1000 / 60) % 60));
+  //   setSeconds(Math.floor((leftTime / 1000) % 60));
+  // };
 
-  useEffect(() => {
-    const interval = setInterval(() => getTime(registrationDeadline), 1000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => getTime(registrationDeadline), 1000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className="flex md:gap-4 gap-1">
